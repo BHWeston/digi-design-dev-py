@@ -5,7 +5,7 @@ This week within programming sessions, you have been working on learning the fol
 3. Approaches to Problem Solving
 4. Arithmetic Operators within Python
 
-# TASK 01: CALCULATOR
+# Task 01: Calculator
 Making use of inputs and variables, create a calculator program which allows for numbers to be entered and for a range of calculations to be completed on each. The following slides will provide the input, processing and output required to **decompose** this program.
 
 ## Inputs
