@@ -1,4 +1,4 @@
-# Python Lab #2
+# Week 02 - Strings and IFs
 Week 2 has been looking at the use of relational operators, string handling and IF statements within Python programming.
 
 There are two tasks for you to complete:
