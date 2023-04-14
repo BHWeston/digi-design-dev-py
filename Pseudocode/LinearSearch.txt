@@ -1,0 +1,17 @@
+FUNCTION linearSearch(items, searchValue)
+BEGIN FUNCTION
+    SET foundValue TO -1
+    SET index TO 0
+
+    FOR index TO LENGTH(items) -1
+        IF items[index] == searchValue THEN
+            SET foundValue TO items[index]
+        END IF
+    END FOR
+
+RETURN items END FUNCTION
+
+SET storedItems TO [1,4,5,7,3,45,2]
+SET searchValue TO 7
+
+linearSearch(storedItems, searchValue)
