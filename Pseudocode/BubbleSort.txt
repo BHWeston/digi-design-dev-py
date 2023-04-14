@@ -1,0 +1,15 @@
+FUNCTION bubbleSort(items)
+BEGIN FUNCTION
+    SET indexLength TO LENGTH(items) - 1
+    
+    FOR index TO indexLength DO
+    
+        IF items[index] > items[index + 1] THEN
+            SET switch TO items[index]
+            items[index] = items[index + 1]
+            items[index + 1] = switch
+        END IF
+    
+    END FOR
+
+RETURN items END FUNCTION
