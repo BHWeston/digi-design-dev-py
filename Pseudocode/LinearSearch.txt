@@ -12,6 +12,6 @@ BEGIN FUNCTION
 RETURN items END FUNCTION
 
 SET storedItems TO [1,4,5,7,3,45,2]
-SET searchValue TO 7
+RECIEVE searchValue FROM KEYBOARD
 
 linearSearch(storedItems, searchValue)
